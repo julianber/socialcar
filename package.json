@@ -1,4 +1,5 @@
 {
+  "homepage": "https://desolate-stream-99386.herokuapp.com/",
   "name": "miperol",
   "version": "1.0.0",
   "description": "Social network for cars",
@@ -9,8 +10,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Julian Bermúdez",
   "license": "MIT",
